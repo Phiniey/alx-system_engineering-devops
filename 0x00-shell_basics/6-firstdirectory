@@ -1,14 +1,4 @@
 #!/bin/bash
+mkdir /tmp/my_first_directory
 
-# Define the directory path
-directory="/tmp/my_first_directory"
-
-# Check if the directory already exists
-if [ ! -d "$directory" ]; then
-    # Create the directory
-    mkdir -p "$directory"
-    echo "$directory: directory"
-else
-    echo "$directory: directory"
-fi
 
